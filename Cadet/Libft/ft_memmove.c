@@ -6,9 +6,11 @@
 /*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/01 18:59:09 by erwang            #+#    #+#             */
-/*   Updated: 2019/05/01 22:40:25 by erwang           ###   ########.fr       */
+/*   Updated: 2019/05/12 16:05:53 by erwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

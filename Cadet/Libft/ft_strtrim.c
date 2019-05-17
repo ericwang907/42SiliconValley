@@ -6,7 +6,7 @@
 /*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/06 17:47:41 by erwang            #+#    #+#             */
-/*   Updated: 2019/05/06 18:24:27 by erwang           ###   ########.fr       */
+/*   Updated: 2019/05/13 20:23:39 by erwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strtrim(char const *s)
 {
 	char	*new;
 	int		i;
-	int 	start;
+	int		start;
 
 	i = 0;
 	if (s == '\0')
@@ -24,7 +24,7 @@ char	*ft_strtrim(char const *s)
 	while (s[i] == ' ' || s[i] == '\n' || s[i] == '\t')
 		i++;
 	start = i;
-	while (s[i] != '\0' && s[i] != ' ' && s[i] != '\n' || s[i] == '\t')
+	while (s[i] != '\0' && s[i] != ' ' && s[i] != '\n' && s[i] != '\t')
 		i++;
 	new = ft_strsub(s, start, i - start);
 	return (new);

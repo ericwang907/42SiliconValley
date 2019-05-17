@@ -1,12 +1,12 @@
 /* ************************************************************************** */
-*                                                                            */
+/*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_strmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/05 20:53:18 by erwang            #+#    #+#             */
-/*   Updated: 2019/05/06 00:53:23 by erwang           ###   ########.fr       */
+/*   Updated: 2019/05/13 20:26:50 by erwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,12 @@
 char	*ft_strmap(char const *s, char (*f)(char))
 {
 	char	*res;
+	int		i;
 
+	i = 0;
 	if (!s || !f)
 		return (NULL);
-	if (res = malloc(sizeof(char) * (ft_strlen(s) + 1)))
+	if ((res = malloc(sizeof(char) * (ft_strlen(s) + 1))) != NULL)
 	{
 		while (s[i] != '\0')
 		{

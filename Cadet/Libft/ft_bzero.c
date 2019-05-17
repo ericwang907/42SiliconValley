@@ -1,16 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/01 14:31:52 by erwang            #+#    #+#             */
-/*   Updated: 2019/05/01 22:41:08 by erwang           ###   ########.fr       */
+/*   Updated: 2019/05/12 16:13:03 by erwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	*ft_memset(void *str, int c, size_t n)
+#include "libft.h"
+
+void	*ft_bzero(void *str, size_t n)
 {
 	unsigned long i;
 	unsigned char *res;

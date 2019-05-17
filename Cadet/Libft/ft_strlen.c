@@ -6,11 +6,13 @@
 /*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/01 22:44:58 by erwang            #+#    #+#             */
-/*   Updated: 2019/05/06 17:22:20 by erwang           ###   ########.fr       */
+/*   Updated: 2019/05/12 19:24:17 by erwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-size_t		strlen(const char *str)
+#include "libft.h"
+
+size_t	ft_strlen(const char *str)
 {
 	size_t length;
 

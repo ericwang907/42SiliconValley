@@ -1,16 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/05/13 21:56:07 by erwang            #+#    #+#             */
+/*   Updated: 2019/05/13 21:58:10 by erwang           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdio.h>
-#include "libft.h"
+#include <limits.h>
 
-int main() 
+int main()
 {
-	char* test_str = "*hello*eric";
-	char delim = '*';
-	char **ret = ft_strsplit(test_str, delim);
-
-	int i=0;
-	for(i = 0; i < 2; ++i)
-	{
-		printf("%s", ret[i]);
-	}
-	return 0;	
+	printf("%d\n", INT_MIN);
+	return 0;
 }
+
+

@@ -6,17 +6,19 @@
 /*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/02 22:32:36 by erwang            #+#    #+#             */
-/*   Updated: 2019/05/03 13:38:27 by erwang           ###   ########.fr       */
+/*   Updated: 2019/05/12 22:01:57 by erwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*strstr(const char *haystack, const char *needle)
+#include "libft.h"
+
+char	*ft_strstr(const char *haystack, const char *needle)
 {
 	int i;
 	int j;
 
 	i = 0;
-	if (*haystack == NULL)
+	if (haystack == NULL)
 		return ((char *)haystack);
 	while (haystack[i] != '\0')
 	{

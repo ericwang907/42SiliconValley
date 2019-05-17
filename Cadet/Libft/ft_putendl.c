@@ -6,12 +6,14 @@
 /*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/09 15:49:33 by erwang            #+#    #+#             */
-/*   Updated: 2019/05/09 15:50:56 by erwang           ###   ########.fr       */
+/*   Updated: 2019/05/12 16:04:37 by erwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_putendl(char const *s)
 {
 	ft_putstr(s);
-	write(1, '\n', 1);
+	write(1, "\n", 1);
 }

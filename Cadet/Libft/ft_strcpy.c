@@ -6,11 +6,11 @@
 /*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/02 15:52:48 by erwang            #+#    #+#             */
-/*   Updated: 2019/05/02 16:09:39 by erwang           ###   ########.fr       */
+/*   Updated: 2019/05/12 22:06:07 by erwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*strcpy(char *dest, const char *src)
+char	*ft_strcpy(char *dest, const char *src)
 {
 	int i;
 

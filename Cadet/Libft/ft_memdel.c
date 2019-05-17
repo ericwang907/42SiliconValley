@@ -6,11 +6,11 @@
 /*   By: erwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/03 22:50:21 by erwang            #+#    #+#             */
-/*   Updated: 2019/05/04 16:12:12 by erwang           ###   ########.fr       */
+/*   Updated: 2019/05/12 16:06:05 by erwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.a"
+#include "libft.h"
 
 void	ft_memdel(void **ap)
 {
